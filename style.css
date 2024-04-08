@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-image: url('cal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+h1{
+    margin-right: 48%;
+    padding: 0;
+    margin-top: 50px; 
+    font-size: 50px;
+    letter-spacing: 20px;
+      
+}
+
+.calculator {
+    border: 4px solid #a0595b;
+    margin-left: 10%;
+    position: absolute;
+    margin-right: 40%;
+    background-color:#e39a9c;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.maininput {
+    background-color:#f8cfd0;
+    border: none;
+    border-radius: 10px;
+    width: 355px;
+    height: 70px;
+    font-size: 24px;
+    color: black;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    
+    margin-top: 10px;
+    width:80px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.numbutton {
+    border: 2px solid #a0595b;
+    background-color:#e4a5a7;
+    color: #fff;
+}
+
+.numbutton:hover {
+    background-color: #d78285;
+}
+
+.calbtn {
+    border: 2px solid #a0595b;
+    background-color:#d78285;
+    color: #fff;
+}
+
+.calbtn:hover {
+    background-color: #df9ea0;
+}
+
+.c {
+    background-color: #b45d60;
+    color: #fff;
+}
+
+.c:hover {
+    background-color: #e4a5a7;
+}
+
+.equal {
+    background-color: #c17073;
+    margin-top: 10px;
+    width:370px;
+    height: 50px;
+    color: #fff;
+}
+
+.equal:hover {
+    background-color: #df9ea0;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div input[type="submit"] {
+    width: 23%;
+}
+.h1{
+    text-align: center;
+}   
+.numbutton1{
+    background-color:burlywood;
+    color: #fff;
+}
