@@ -3,17 +3,14 @@ body {
     background-image: url('cal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 
-h1{
+h1 {
     margin-right: 48%;
     padding: 0;
-    margin-top: 50px; 
+    margin-top: 50px;
     font-size: 50px;
     letter-spacing: 20px;
-      
 }
 
 .calculator {
@@ -21,7 +18,7 @@ h1{
     margin-left: 10%;
     position: absolute;
     margin-right: 40%;
-    background-color:#e39a9c;
+    background-color: #e39a9c;
     width: 400px;
     padding: 20px;
     text-align: center;
@@ -29,7 +26,7 @@ h1{
 }
 
 .maininput {
-    background-color:#f8cfd0;
+    background-color: #f8cfd0;
     border: none;
     border-radius: 10px;
     width: 355px;
@@ -41,21 +38,19 @@ h1{
 }
 
 .btn {
-    
     margin-top: 10px;
-    width:80px;
+    width: 80px;
     padding: 20px;
     border-radius: 5px;
     font-size: 24px;
     margin: 5px;
     border: none;
     cursor: pointer;
-
 }
 
 .numbutton {
     border: 2px solid #a0595b;
-    background-color:#e4a5a7;
+    background-color: #e4a5a7;
     color: #fff;
 }
 
@@ -65,7 +60,7 @@ h1{
 
 .calbtn {
     border: 2px solid #a0595b;
-    background-color:#d78285;
+    background-color: #d78285;
     color: #fff;
 }
 
@@ -85,7 +80,7 @@ h1{
 .equal {
     background-color: #c17073;
     margin-top: 10px;
-    width:370px;
+    width: 370px;
     height: 50px;
     color: #fff;
 }
@@ -102,10 +97,16 @@ h1{
 .div input[type="submit"] {
     width: 23%;
 }
-.h1{
-    text-align: center;
-}   
-.numbutton1{
-    background-color:burlywood;
-    color: #fff;
+
+@media only screen and (max-width: 768px) {
+    .calculator {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .calculator {
+        width: 90%;
+    }
 }
